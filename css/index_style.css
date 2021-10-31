@@ -1,0 +1,200 @@
+@media(max-width:1600px){
+    .block{
+        position: absolute;
+        /* width: 95%; */
+        left: 0;
+        right: 0;
+        top: 0;
+        /* height: 70rem; */
+        display: none;
+        /* background: rgba(255,255,255,0.8); */
+        color: black;
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h1,h2,h3{
+    color: #fff;
+    font-family: var(--heading);
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-family: var(--other);
+}
+a{
+    text-decoration: none;
+    font-family: var(--other);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+li{
+    list-style: none;
+}
+
+.fas{
+    font-size: 5rem;
+}
+
+
+/* navigation */
+
+.navigation{
+    height: 12rem;
+    background: var(--dark);
+    position: relative;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 0%;
+} 
+ul li{
+    margin: 5rem 0;
+    
+}
+.block ul li a{
+    color: black;
+}
+
+.navigation a:hover{
+    border-bottom: 0.2rem solid white;
+}
+
+.block{
+    position: absolute;
+    width: 95%;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70rem;
+    display: none;
+    background: rgba(255,255,255,0.8);
+    color: black;
+}
+
+/* showcase */
+
+.showcase{
+    background: var(--dark);
+    height: 100rem;
+    width: auto;
+    padding: 1rem;
+}
+
+
+.showcase .text-show{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+}
+.showcase .text-show h1{
+    margin: 2rem 0;
+}
+.showcase .text-show h3{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+
+
+.showcase .img-show{
+    width: auto;
+    height: auto;
+    
+}
+
+.showcase h2{
+    font-size: 2.8rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+/* Logo showcase */
+
+.Logo_showcase
+{
+    margin: 5rem 0;
+}
+
+.Logo_change i,.Logo_change h1{
+    color: black;
+}
+
+.Logo_change{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+/* Blog */
+
+.blog{
+    background-color: var(--dark);
+    position: relative;
+}
+
+.blog a{
+    text-align: justify;
+    font-size: 3rem;
+}
+.blog p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.blog .blog-change{
+    flex-wrap: wrap;
+}
+
+
+/* footer */
+
+footer{
+    background: var(--dark);
+    padding: 1.5rem;
+    height: 40rem;
+    position: relative;
+    padding: 2rem;
+    overflow: hidden;
+    /* border: none; */
+}
+
+footer .chn_1{
+    flex-wrap: wrap;
+    /* background: rgba(255,255,255,0.2); */
+    justify-content: space-between;
+}
+
+
+
